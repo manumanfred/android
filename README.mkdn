@@ -37,6 +37,10 @@ Then to sync up:
 
     repo sync
 
+Start building by:
+
+. build/envsetup.sh && brunch jet
+
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
 For more information on this Github Organization and how it is structured, 
