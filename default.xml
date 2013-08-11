@@ -1,11 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="aosp" fetch="git://android.git.linaro.org/" review="review.android.git.linaro.org"/>
-  <default revision="refs/tags/android-2.3.7_r1" remote="aosp" sync-j="4"/>
-  <remote name="linaro-android" fetch="git://android.git.linaro.org/" review="review.android.git.linaro.org"/>
-  <remote name="linaro-other" fetch="git://git.linaro.org/"/>
-  <remote name="0xbench" fetch="git://gitorious.org/0xbench/"/>
-  <remote name="gitorious" fetch="git://gitorious.org/"/>
-  <remote name="omapzoom" fetch="git://git.omapzoom.org/repo/"/>
+  <remote name="aosp"
+          fetch="git://android.git.linaro.org/"
+          review="review.android.git.linaro.org"/>
+
+  <default revision="refs/tags/android-2.3.7_r1"
+           remote="aosp"
+           sync-j="4"/>
+ 
+  <remote name="linaro-android"
+         fetch="git://android.git.linaro.org/" review="review.android.git.linaro.org"/>
+
+  <remote name="linaro-other"
+          fetch="git://git.linaro.org/"/>
+
+  <remote name="0xbench"
+          fetch="git://gitorious.org/0xbench/"/>
+
+  <remote name="gitorious"
+          fetch="git://gitorious.org/"/>
+
+  <remote name="omapzoom"
+          fetch="git://git.omapzoom.org/repo/"/>
+
   <!--  GATOR  -->
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other"/>
   <!--  Linaro changes  -->
@@ -200,4 +217,5 @@
   <project path="system/bluetooth" name="platform/system/bluetooth"/>
   <project path="system/extras" name="platform/system/extras"/>
   <project path="system/netd" name="platform/system/netd"/>
+  
 </manifest>
